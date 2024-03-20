@@ -15,7 +15,7 @@ public class Curriculum1_27 extends Curriculum1_27_2 {
 		// 入力された値をAnimalに代入。
 		Animal = scanner.nextLine();
 		// 条件式を用いてユーザー名の入力が空でないか、nullでないかを確認。
-		if ((Animal == null) || (" ".equals(Animal))) {
+		if ((Animal == null) || ("".equals(Animal)) || (" ".equals(Animal))){
 			//条件式が真の場合処理Scannerを閉じる
 			scanner.close();
 			//値が入力されていないと表示。
